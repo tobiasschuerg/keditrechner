@@ -23,7 +23,7 @@
           :value="loanAmount"
           @input="handleInput('loanAmount', $event)"
           min="0"
-          step="1000"
+          step="10000"
         />
       </div>
 
@@ -80,7 +80,7 @@
           :value="desiredMonthlyRate"
           @input="handleInput('desiredMonthlyRate', $event)"
           min="0"
-          step="10"
+          step="100"
         />
       </div>
     </div>
